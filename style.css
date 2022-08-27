@@ -51,6 +51,12 @@ body{
 }
 .link:hover:not(.active) {
     opacity: 0.7;
+    
+}
+
+.link:hover {
+  color: #ff3559;
+  
 }
 
 .link.active::before,.seperator::before {
@@ -134,6 +140,15 @@ to {
   color: black;
  text-shadow: 0 0 20px #00fff2, 0 0 30px #00fff2, 0 0 40px #00fff2, 0 0 50px #00fff2, 0 0 60px #00fff2, 0 0 70px #00fff2, 0 0 80px #00fff2, 0 1 90px #00fff2;
 }
+}
+
+.snow {
+  height: 40px;
+  width: 235px;
+  background-color: white;
+  position: relative;
+  left: 60px;
+  border-radius: 8px;
 }
   
   .info {
@@ -310,11 +325,32 @@ to {
     grid-column: 2 span;
   }
 
+  /* Badges Section */
+
+  .container-fluid {
+    width: 100%;
+    
+  }
+
+  .col-md-6 .cert {
+    width: 500px;
+    height: 300px;
+    margin-left: 80px;
+  }
+
+  .col-md-6 .btn {
+    margin-left: 260px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
   .badges .sub-heading {
     margin-top: 50px;
     margin-left: 100px;
     margin-right: 100px;
   }
+
+ 
 
   .carousel-item{
     width: 60%;
